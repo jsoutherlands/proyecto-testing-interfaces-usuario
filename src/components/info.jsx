@@ -3,58 +3,59 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import {blueColor, greyColor, purpleColor, yellowColor} from '../stylesheets/constants.js'
 import { ArrowRightCircleFill } from 'react-bootstrap-icons';
 
+const PurpleListItem = styled(ListGroup.Item)`
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: ${purpleColor};
+  padding: 0.8rem;
+  font-size: 18px;
+  text-decoration: none; 
+
+  &:hover {
+    opacity: 0.9;
+  }
+`;
+
+const BlueListItem = styled(ListGroup.Item)`
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: ${blueColor};
+  padding: 0.8rem;
+  font-size: 16px;
+  text-decoration: none; 
+
+  &:hover {
+    opacity: 0.9;
+  }
+`;
+
+const ListItemText = styled.div`
+  font-weight: bold;
+  border-left: 3px solid ${yellowColor};
+  color: #fff;
+  padding-left: 0.5rem;
+`;
+
+const VerTodo = styled.a`
+  font-family: "Montserrat", Sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  color: #6c757d;
+  text-decoration: none; 
+  background-color: transparent;
+  margin-left: auto;
+`;
+
+const Title = styled.h2`
+  font-family: "Montserrat", Sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  color: ${greyColor};
+`;
+
+
 export default function Info() {
-  const PurpleListItem = styled(ListGroup.Item)`
-    border-radius: 10px;
-    margin-bottom: 10px;
-    background-color: ${purpleColor};
-    padding: 0.8rem;
-    font-size: 18px;
-    text-decoration: none; 
-
-    &:hover {
-      opacity: 0.9;
-    }
-  `;
-
-  const BlueListItem = styled(ListGroup.Item)`
-    border-radius: 10px;
-    margin-bottom: 10px;
-    background-color: ${blueColor};
-    padding: 0.8rem;
-    font-size: 16px;
-    text-decoration: none; 
-
-    &:hover {
-      opacity: 0.9;
-    }
-  `;
-
-  const ListItemText = styled.div`
-    font-weight: bold;
-    border-left: 3px solid ${yellowColor};
-    color: #fff;
-    padding-left: 0.5rem;
-  `;
-
-  const VerTodo = styled.a`
-    font-family: "Montserrat", Sans-serif;
-    font-size: 21px;
-    font-weight: 600;
-    color: #6c757d;
-    text-decoration: none; 
-    background-color: transparent;
-    margin-left: auto;
-  `;
-
-  const Title = styled.h2`
-    font-family: "Montserrat", Sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 38px;
-    color: ${greyColor};
-  `;
-
   return (
     <ListGroup>
       <Title>Información importante</Title>
