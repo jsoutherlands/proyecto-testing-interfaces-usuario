@@ -1,1 +1,33 @@
 @import '~bootstrap/scss/bootstrap';
+
+.link-usmcl:hover{
+	text-decoration: underline;
+	text-decoration-color: #ca9e00;
+	text-decoration-thickness: 2px;
+}
+
+.yellow-button:hover{
+	background-color: #ca9e00;
+	border-color: #ca9e00;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.icon-arrow:hover{
+	color: #ca9e00;
+}
+
+.nav-dropdown{
+	background-color: #005E90 !important;
+	color: #ffffff;
+	padding: 10px 5px;
+}
+
+.nav-dropdown:hover{
+	background-color: #074469 !important;
+	color: #ffffff;
+}
+
+.nav-drop-menu{
+	background-color: #005E90 !important;
+	margin: -5px 0;
+}
