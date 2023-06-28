@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import ListGroup from 'react-bootstrap/ListGroup';
 import {blueColor, greyColor, purpleColor, yellowColor} from '../stylesheets/constants.js'
-import { ArrowRightCircleFill } from 'react-bootstrap-icons';
+
 
 const PurpleListItem = styled(ListGroup.Item)`
   border-radius: 10px;
@@ -79,10 +79,6 @@ export default function Info() {
           Postulación a becas de apoyo: desayuno, materiales y fotocopias Campus Casa Central Valparaíso
         </ListItemText>
       </BlueListItem>
-      <VerTodo href="/">
-        <span> Ver todo </span>
-        <ArrowRightCircleFill />
-      </VerTodo>
     </ListGroup>
 
     
