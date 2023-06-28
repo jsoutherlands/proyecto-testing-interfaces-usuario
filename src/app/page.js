@@ -13,10 +13,10 @@ export default function Home() {
     <Container>
       <HomeNavbar/>
       <Row>
-        <Col lg={8}>
+        <Col lg={7}>
           <Noticias/>
         </Col>
-        <Col lg={4}>
+        <Col lg={5}>
           <Info/>
         </Col>
       </Row>
