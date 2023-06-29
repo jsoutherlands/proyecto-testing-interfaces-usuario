@@ -32,8 +32,8 @@ const PreNavButton = styled(Button)`
 const StyledNavbar = styled(Navbar)`
 	padding: 50px 0;
 	font-family: "Montserrat", Sans-serif;
-	font-size: 14px;
-	font-weight: 600;
+	font-size: 15px;
+	font-weight: 500;
 	`
 
 const StyledNavDropdown = styled(NavDropdown.Item)`
@@ -57,25 +57,6 @@ export default function HomeNavbar() {
 			<Navbar style={{backgroundColor: `${blueColor}`, marginY: "10px", paddingX: "10px"}}>
 				<Container>
 					<PreNavLinkUSM className="link-usmcl" href="https://usm.cl/">USM.cl</PreNavLinkUSM>
-					<Accesibility>
-						<NavDropdown href="/" title={<div><UniversalAccessCircle /> <span>Accesibilidad</span></div>} id="basic-nav-dropdown">
-							<StyledNavDropdown className="nav-dropdown">
-								Aa
-							</StyledNavDropdown>
-							<StyledNavDropdown className="nav-dropdown">
-								A-
-							</StyledNavDropdown>
-							<StyledNavDropdown className="nav-dropdown">
-								A+
-							</StyledNavDropdown>
-							<StyledNavDropdown className="nav-dropdown">
-								Escala de grises
-							</StyledNavDropdown>
-							<StyledNavDropdown className="nav-dropdown">
-								Tonos oscuros
-							</StyledNavDropdown>
-						</NavDropdown>
-					</Accesibility>
 					<PreNavButton className="yellow-button" href="https://forms.office.com/pages/responsepage.aspx?id=dlZiAicyCkScaLttKd5CBp1V6uTZ5MZNtR_4Hn33Q91URVVPS0dUSlBYRlI4SlhNREdIOUlJRlFHUS4u">Activación BAES - JUNAEB 2023</PreNavButton>
 				</Container>
 			</Navbar>
@@ -114,7 +95,6 @@ export default function HomeNavbar() {
 							</NavDropdown>
 							<Nav.Link href="https://rree.usm.cl/fomento-iniciativas-estudiantiles/">Iniciativas Estudiantiles</Nav.Link>
 							<Nav.Link href="https://rree.usm.cl/publicaciones/">Normativas</Nav.Link>
-							<Nav.Link href="https://rree.usm.cl/contacto/">Contacto</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

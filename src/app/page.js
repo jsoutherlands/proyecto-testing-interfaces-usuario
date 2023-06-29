@@ -11,6 +11,8 @@ import Info from '@/components/info';
 import PreFooter from '@/components/prefooter';
 import { ArrowRightCircleFill } from 'react-bootstrap-icons';
 import Footer from '@/components/footer';
+import ExternalPortals from '@/components/external-portals';
+import ExternalLinks from '@/components/external-links';
 
 const VerTodo = styled.a`
 		font-family: "Montserrat", Sans-serif;
@@ -51,6 +53,15 @@ export default function Home() {
 					</Col>
 				</Row>
 			</Container>
+			<div className='external'>
+				<Container>
+					<Row>
+						<Col>
+							<ExternalLinks/>
+						</Col>
+					</Row>
+				</Container>
+			</div>
 			<PreFooter/>
 			<Footer />
 		</div>
