@@ -11,6 +11,7 @@ import { ArrowRightCircleFill } from 'react-bootstrap-icons';
 
     &:hover {
       transform: translateY(-4px);
+      transition: .2s;
       box-shadow: 0 10px 20px 0 rgb(0 0 0 / 60%);
     }
   `
@@ -47,6 +48,7 @@ import { ArrowRightCircleFill } from 'react-bootstrap-icons';
     flex: 1;
     &:hover {
       transform: translateY(-4px);
+      transition: .2s;
       box-shadow: 0 10px 20px 0 rgb(0 0 0 / 60%);
     }
   `;

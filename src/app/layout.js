@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Relaciones Estudiantiles USM',
-  description: 'Hola',
+  title: 'Inicio - Dirección de Relaciones Estudiantiles',
+  description: '',
 }
 
 export default function RootLayout({ children }) {

@@ -1,9 +1,12 @@
 @import '~bootstrap/scss/bootstrap';
+@import './prefooter.scss';
+@import './footer.scss';
 
 .link-usmcl:hover{
 	text-decoration: underline;
 	text-decoration-color: #ca9e00;
 	text-decoration-thickness: 2px;
+	transition: .4s;
 }
 
 .yellow-button:hover{
@@ -27,7 +30,6 @@
 	color: #ffffff;
 }
 
-.nav-drop-menu{
-	background-color: #005E90 !important;
-	margin: -5px 0;
+.dropdown-menu{
+	--bs-dropdown-bg:  #005E90;
 }
