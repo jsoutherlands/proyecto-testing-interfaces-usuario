@@ -1,13 +1,19 @@
 
 .external {
+    font-family: "Montserrat", sans-serif;
     background-color: 	#333333;
     color: white;
     padding: 20px 0;
     margin: 20px 0 0 0;
-    font-weight: 600;
+    //font-weight: 600;
+  }
+
+  .external h5 {
+    font-weight: bold;
   }
 
 .external-links-button {
+  font-family: "Montserrat", sans-serif;
   background-color: #007549;
   border-color: #007549;
 }
@@ -17,14 +23,16 @@
   border-color: #005736;
 }
 .external-links-yellow-button{
-  background-color: #ca9e00;
-  border-color: #ca9e00;
-  color: #3B424C;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5b300;
+  border-color: #e5b300;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  color: #ffffff;
 }
 .external-links-yellow-button:hover {
-  background-color: #a28006;
-  border-color: #a28006;
-  color : #3B424C;
+  background-color: #ca9e00;
+  border-color: #ca9e00;
+  color : #ffffff;
 }
 
 .external-button {
