@@ -23,13 +23,13 @@ export default function ExternalLinks() {
 			<h5>Enlaces externos</h5>
 			<Row className="external-row">
 				<Col lg="auto">
-					<Button className="external-button" href="https://sireb.usm.cl" variant='warning'>Portal SIREB</Button>
+					<Button className="external-button external-links-yellow-button" href="https://sireb.usm.cl" >Portal SIREB</Button>
 				</Col>
 				<Col lg="auto">
-					<Button className="external-button" href="https://fondos.usm.cl" variant='warning'>Portal Fondos Concursables</Button>
+					<Button className="external-button external-links-yellow-button" href="https://fondos.usm.cl">Portal Fondos Concursables</Button>
 				</Col>
 				<Col lg="auto">
-					<Button className="external-button" href="https://actividadextracurricular.usm.cl/ActExtra/index.jsf" variant='warning'>Portal De Desarrollo Estudiantil</Button>
+					<Button className="external-button external-links-yellow-button" href="https://actividadextracurricular.usm.cl/ActExtra/index.jsf" >Portal De Desarrollo Estudiantil</Button>
 				</Col>
 			</Row>
 			<Row className="external-row">

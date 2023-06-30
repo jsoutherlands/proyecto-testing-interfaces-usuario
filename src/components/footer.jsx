@@ -11,6 +11,8 @@ export default function Footer() {
 							<h5 className="footer-title">Universidad</h5>
 							<a href="/">Nuestra Historia</a>
 							<h5 className="footer-title">Campus y Sedes</h5>
+							<div><a href="/">Información Campus y Sedes</a></div>
+							<div><a href="/">Tour Virtual</a></div>
 						</Col>
 						<Col lg={3}>
 							<h5 className="footer-title">Extensión y Cultura</h5>
@@ -25,6 +27,15 @@ export default function Footer() {
 						</Col>
 						<Col lg={3}>
 							<h5 className="footer-title">Servicios</h5>
+							<div><a href="/">Aula USM</a></div>
+								<div><a href="/">Biblioteca USM</a></div>
+								<div><a href="/">Portal de Autoservicio Institucional</a></div>
+								<div><a href="/">Dirección de Tecnologías de la Información</a></div>
+								<div><a href="/">Portal de Reportes UDAI</a></div>
+								<div><a href="/">Sistema de Información de Información Argos ERP</a></div>
+								<div><a href="/">Sistema de Remuneraciones Históricas</a></div>
+								<div><a href="/">Directorio USM</a></div>
+								<div><a href="/">Trabaja con nosotros</a></div>
 						</Col>
 						<Col lg={3}>
 							<img src="https://rree.usm.cl/wp-content/uploads/2021/11/sello-acreditacion-2028.svg" width={200}/>
