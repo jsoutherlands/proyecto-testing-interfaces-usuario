@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { PinMapFill, TelephoneFill, EnvelopeFill, Facebook } from "react-bootstrap-icons";
+import { PinMapFill, TelephoneFill, EnvelopeFill, Facebook, Instagram } from "react-bootstrap-icons";
 
 export default function PreFooter() {
 	return(
@@ -24,7 +24,8 @@ export default function PreFooter() {
 						</div>
 						<div style={{display: "inline-block"}}>
 							<Facebook className="socialmedia" />
-							<Facebook className="socialmedia" />
+							<Instagram className="socialmedia" />
+			
 						</div>
 					</Col>
 					<Col lg={2}>
@@ -43,7 +44,7 @@ export default function PreFooter() {
 						</div>
 						<div style={{display: "inline-block"}}>
 							<Facebook className="socialmedia" />
-							<Facebook className="socialmedia" />
+							<Instagram className="socialmedia" />
 						</div>
 					</Col>
 					<Col lg={2}>
@@ -62,7 +63,7 @@ export default function PreFooter() {
 						</div>
 						<div style={{display: "inline-block"}}>
 							<Facebook className="socialmedia" />
-							<Facebook className="socialmedia" />
+							<Instagram className="socialmedia" />
 						</div>
 					</Col>
 					<Col lg={3}>
@@ -85,7 +86,7 @@ export default function PreFooter() {
 						</div>
 						<div style={{display: "inline-block"}}>
 							<Facebook className="socialmedia" />
-							<Facebook className="socialmedia" />
+							<Instagram className="socialmedia" />
 						</div>
 					</Col>
 					<Col lg={2}>
@@ -104,7 +105,7 @@ export default function PreFooter() {
 						</div>
 						<div style={{display: "inline-block"}}>
 							<Facebook className="socialmedia" />
-							<Facebook className="socialmedia" />
+							<Instagram className="socialmedia" />
 						</div>
 					</Col>
 				</Row>
