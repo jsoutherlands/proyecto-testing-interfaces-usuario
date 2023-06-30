@@ -9,7 +9,12 @@ export default function Footer() {
 					<Row>
 						<Col lg={3}>
 							<h5 className="footer-title">Universidad</h5>
-							<a href="/">Nuestra Historia</a>
+							<div><a href="">Nuestra Historia</a></div>
+							<div><a href="">Federico Santa María</a></div>
+							<div><a href="">Definiciones Estratégicas</a></div>
+							<div><a href="">Modelo Educativo</a></div>
+							<div><a href="">Organización</a></div>
+							<div><a href="">Información Estadística USM</a></div>
 							<h5 className="footer-title">Campus y Sedes</h5>
 							<div><a href="/">Información Campus y Sedes</a></div>
 							<div><a href="/">Tour Virtual</a></div>

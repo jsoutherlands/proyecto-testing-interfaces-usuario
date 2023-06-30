@@ -16,19 +16,18 @@ export default function PreFooter() {
 						</div>
 						<div>
 							<TelephoneFill />
-							<span className="prefooter-span">(+56 32) 2652 889</span>
+							<span className="prefooter-span"><a href="tel:+56 32 265 2889">+56 32 265 2889</a></span>
 						</div>
 						<div>
 							<EnvelopeFill />
-							<span className="prefooter-span">info.rree@usm.cl</span>
+							<span className="prefooter-span"><a href="mailto:info.rree@usm.cl">info.rree@usm.cl</a></span>
 						</div>
-						<div style={{display: "inline-block"}}>
-							<Facebook className="socialmedia" />
-							<Instagram className="socialmedia" />
-			
+						<div clasName="socialmedia-div" style={{display: "inline-block"}}>
+							<a href="https://www.facebook.com/rreeusm.casacentral/"><Facebook className="socialmedia" /></a>
+							<a href="https://www.instagram.com/rreeusm/"><Instagram className="socialmedia" /></a>
 						</div>
 					</Col>
-					<Col lg={2}>
+					<Col lg={3}>
 						<h5 className="prefooter-titles">Campus San Joaquín</h5>
 						<div>
 							<PinMapFill />
@@ -36,15 +35,15 @@ export default function PreFooter() {
 						</div>
 						<div>
 							<TelephoneFill />
-							<span className="prefooter-span">(+56-2) 23037070</span>
+							<span className="prefooter-span"><a href="tel:+56 2 2303 7070">+56 2 2303 7070</a></span>
 						</div>
 						<div>
 							<EnvelopeFill />
-							<span className="prefooter-span">rree.cssj@usm.cl</span>
+							<span className="prefooter-span"><a href="mailto:rree.cssj@usm.cl">rree.cssj@usm.cl</a></span>
 						</div>
-						<div style={{display: "inline-block"}}>
-							<Facebook className="socialmedia" />
-							<Instagram className="socialmedia" />
+						<div clasName="socialmedia-div" style={{display: "inline-block"}}>
+							<a href="https://www.facebook.com/rreeusm.sanjoaquin"><Facebook className="socialmedia" /></a>
+							<a href="https://www.instagram.com/rreeusm_sanjoaquin/"><Instagram className="socialmedia" /></a>
 						</div>
 					</Col>
 					<Col lg={2}>
@@ -55,18 +54,18 @@ export default function PreFooter() {
 						</div>
 						<div>
 							<TelephoneFill />
-							<span className="prefooter-span">(+56-2) 32028070</span>
+							<span className="prefooter-span"><a href="tel:+56 2 3202 8070">+56 2 3202 8070</a></span>
 						</div>
 						<div>
 							<EnvelopeFill />
-							<span className="prefooter-span">rree.csv@usm.cl</span>
+							<span className="prefooter-span"><a href="mailto:rree.csv@usm.cl">rree.csv@usm.cl</a></span>
 						</div>
-						<div style={{display: "inline-block"}}>
-							<Facebook className="socialmedia" />
-							<Instagram className="socialmedia" />
+						<div clasName="socialmedia-div" style={{display: "inline-block"}}>
+							<a href="https://www.facebook.com/rreeusm.vitacura"><Facebook className="socialmedia" /></a>
+							<a href="https://www.instagram.com/rreeusm_vitacura/"><Instagram className="socialmedia" /></a>
 						</div>
 					</Col>
-					<Col lg={3}>
+					<Col lg={2}>
 						<h5 className="prefooter-titles">Sede Viña del Mar</h5>
 						<div>
 							<PinMapFill />
@@ -74,19 +73,19 @@ export default function PreFooter() {
 						</div>
 						<div>
 							<TelephoneFill />
-							<span className="prefooter-span">(+56-32) 2277881</span>
+							<span className="prefooter-span"><a href="tel:+56 32 227 7881">+56 32 227 7881</a></span>
 						</div>
 						<div>
 							<TelephoneFill />
-							<span className="prefooter-span">(+56-32) 2277891</span>
+							<span className="prefooter-span"><a href="tel:+56 32 227 7891">+56 32 227 7891</a></span>
 						</div>
 						<div>
 							<EnvelopeFill />
-							<span className="prefooter-span">consultasbienestar.jmc@usm.cl</span>
+							<span className="prefooter-span"><a href="mailto:consultasbienestar.jmc@usm.cl">consultasbienestar.jmc@usm.cl</a></span>
 						</div>
-						<div style={{display: "inline-block"}}>
-							<Facebook className="socialmedia" />
-							<Instagram className="socialmedia" />
+						<div clasName="socialmedia-div" style={{display: "inline-block"}}>
+							<a href="https://www.facebook.com/rreeusm.jmc/"><Facebook className="socialmedia" /></a>
+							<a href="https://www.instagram.com/rreeusm_vina/"><Instagram className="socialmedia" /></a>
 						</div>
 					</Col>
 					<Col lg={2}>
@@ -97,15 +96,15 @@ export default function PreFooter() {
 						</div>
 						<div>
 							<TelephoneFill />
-							<span className="prefooter-span">(+56-41) 2407622</span>
+							<span className="prefooter-span"><a href="tel:+56 41 240 7622">+56 41 240 7622</a></span>
 						</div>
 						<div>
 							<EnvelopeFill />
-							<span className="prefooter-span">rree.concepcion@usm.cl</span>
+							<span className="prefooter-span"><a href="mailto:rree.concepcion@usm.cl">rree.concepcion@usm.cl</a></span>
 						</div>
-						<div style={{display: "inline-block"}}>
-							<Facebook className="socialmedia" />
-							<Instagram className="socialmedia" />
+						<div clasName="socialmedia-div" style={{display: "inline-block"}}>
+							<a href="https://www.facebook.com/rreeusm.concepcion/"><Facebook className="socialmedia" /></a>
+							<a href="https://www.instagram.com/rreeusm_concepcion/"><Instagram className="socialmedia" /></a>
 						</div>
 					</Col>
 				</Row>
