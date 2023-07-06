@@ -127,7 +127,7 @@ const NoticeCardMiniText = styled(Card.Text)`
                 <NoticeCard.Img src = "https://usm.cl/wp-content/uploads/2023/06/Festigeek-10.jpg" alt="NoticeCard image" />
                 <NoticeCardOverlay>
                   <NoticeCardTitle>Con éxito se desarrolló Festigeek 2023 en Campus San Joaquín</NoticeCardTitle>
-                  <NoticeCardText>09 - Junio - 2023</NoticeCardText>
+                  <NoticeCardText>20 - Junio - 2023</NoticeCardText>
                 </NoticeCardOverlay>
               </NoticeCard>
             </a>
